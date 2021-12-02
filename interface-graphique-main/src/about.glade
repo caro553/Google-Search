@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAboutDialog" id="about_dialog">
+    <property name="can_focus">False</property>
+    <property name="type_hint">dialog</property>
+    <property name="program_name">GoogleSearch Tips</property>
+    <property name="comments" translatable="yes">Application that shows some GoogleSearch tips</property>
+    <property name="website">https://www.youtube.com/watch?v=erZ3IyBCXdY</property>
+    <property name="website_label" translatable="yes">Inspired from this video</property>
+    <property name="artists">Vinkovic Carolina 
+Tacherifte Aymen</property>
+    <property name="logo_icon_name">applications-internet</property>
+    <property name="license_type">lgpl-3-0</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child internal-child="vbox">
+      <object class="GtkBox" id="box_about_dialog">
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox" id="buttonBoxAboutDialog">
+            <property name="can_focus">False</property>
+            <property name="homogeneous">True</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
